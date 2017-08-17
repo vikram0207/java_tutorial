@@ -28,10 +28,13 @@ public class MyStack {
       al.push("F");
       al.push("AADD");
       
+      al.pop();
+      al.pop();
+      al.pop();     
        // System.out.println(al.size());
         //System.out.println(al.get(1));
         //al.remove(1);
-        System.out.println(al);
+        System.out.println(al.peek());
         al
                 .stream()
                 .forEach(System.out::println);
